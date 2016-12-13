@@ -1,4 +1,4 @@
-#Comments for Javascript30, Lesson 1: JS Drumset
+# Comments for Javascript30, Lesson 1: JS Drumset
 
 Wes and I approached this quite differently. I used JS to build the buttons and assign the sounds whereas Wes used divs and embedded the sound elements on the page. I also (unnecessarily) added the ability to mouse-click the buttons to make the sound in addition to using keys.
 
