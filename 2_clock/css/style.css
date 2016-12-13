@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Glegoo');
+
+
+body {
+  display: flex;
+  background: url('https://images.unsplash.com/photo-1460411794035-42aac080490a') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Glegoo', sans-serif;
+  color: lightyellow;
+  font-size: 4rem;
+  text-shadow: 6px 3px #581845; 
+}
+
+#main {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 8px solid #581845;
+  margin: 0;
+  
+}
+
+#minute {
+  position: relative;
+  top: 49%;
+  left: 49%;
+  z-index: 2;
+	width: 140px;
+	height: 10px;
+	background: #581845;
+  transform-origin: left;
+}
+
+#hour {
+  position: relative;
+  z-index: 2;
+	width: 75px;
+  top: 44%;
+  left: 49%;
+	height: 10px;
+	background: #581845;
+  transform-origin: left;
+}
+
+#second {
+  position: relative;
+  z-index: 1;
+	width: 140px;
+  top: 46%;
+  left: 49%;
+	height: 5px;
+	background: #aca4dd;
+  transform-origin: left;
+}
+
