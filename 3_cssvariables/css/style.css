@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Damion');
+
+html {
+  --accent-color: lightblue;
+  --bg-color: #26466D;
+  --washout: 0%;
+  --blur: 0px;
+}
+
+body {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: var(--bg-color);
+  width: 90%;
+  margin: 0 auto;
+  
+}
+
+h1 {
+  font-family: 'Damion', sans-serif;
+  font-size: 50px;
+  line-height: 2.75rem;
+  color: var(--accent-color);
+  text-shadow: 3px 3px #555
+  
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 18%;
+  font-family: 'Open Sans Condensed';
+  font-size: 25px;
+}
+
+
+
+input {
+ margin: 30px 0;
+ 
+ 
+}
+
+label {
+  margin-top: -27px;
+  text-align: center;
+  color: var(--accent-color);
+}
+
+input[type='color'] {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  display: flex;
+  flex-direction: row;
+  margin-top: -400px;
+  width: 78%;
+  align-self: flex-end;
+  z-index: 2;
+  box-shadow: 0px 0px 10px 5px var(--accent-color);
+  filter: blur(var(--blur)) grayscale(var(--washout));
+  
+}
+
+@media (max-width: 600px) { 
+  * {
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  
+  .container {
+    width: 80%;
+    }
+    
+  img {
+    margin-top: 30px;
+    width: 90%;
+  }
+}
