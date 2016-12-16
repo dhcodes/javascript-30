@@ -6,3 +6,4 @@ This repo will store my projects that are part of [Wes Bos' Javascript 30 series
 1. [JS Drumset](http://codepen.io/dhcodes/full/rWZOrz) | Notes
 2. [CSS+JS Clock](http://codepen.io/dhcodes/full/QGVZxJ/) | Notes
 3. [CSS Variables](http://codepen.io/dhcodes/full/pNQNVZ/) | Notes
+4. [Array Cardio](http://codepen.io/dhcodes/pen/PbXoQe) | Notes
