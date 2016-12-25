@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+body {
+  margin: 0 auto;
+}
+
+p {
+  text-align: center;
+  font-family: 'Amatic SC', Arial, sans-serif;
+  color: yellow;
+  text-shadow: 1px 1px #777;
+  font-size: 4.5rem;
+  line-height: 
+}
+
+.panels {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+  flex-wrap: nowrap;
+  flex-grow:1;
+}
+
+
+
+#panel1, #panel2, #panel3, #panel4, #panel5 {
+  margin: auto;
+  min-height: 100vh;
+  width: 20vw;
+  transition: padding 0.5s ease-in-out;
+}
+
+
+
+#panel1 {
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/European_Brown_Bear.jpg/1024px-European_Brown_Bear.jpg') center;
+  
+  
+}
+
+#panel2 {
+   background: url('https://upload.wikimedia.org/wikipedia/commons/3/36/King_of_the_Hill_%284204077163%29.jpg') center;
+}
+
+#panel3 {
+   background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Polar_Bear_AdF.jpg/1280px-Polar_Bear_AdF.jpg') center;
+}
+
+#panel4 {
+   background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Black_bear_with_salmon.jpg/1280px-Black_bear_with_salmon.jpg') center;
+}
+
+#panel5 {
+   background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Sitting_sun_bear.jpg/800px-Sitting_sun_bear.jpg') top;
+}
+
+.panels div:hover {
+  padding: 0 10%;
+  
+}
+
+.top {
+  position: relative;
+  top: -100vh;
+  transition: top 1s ease-in-out;
+}
+
+.bottom {
+  position: relative;
+  bottom: -100vh;
+  transition: bottom 1s ease-in-out;
+}
+
+.top-mod {
+  top: 25vh;
+}
+
+.bottom-mod {
+  bottom: -25vh;
+}
+
+
