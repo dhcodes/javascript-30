@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai');
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: goldenrod;
+  flex-direction: column;
+  font-family: 'Arima Madurai', sans-serif;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 15%;
+}
+
+form {
+  margin-top: -15px;
+}
+
+input {
+  width: 50vw;
+  line-height: 3.5rem;
+  font-family: 'Arima Madurai', sans-serif;
+  font-size: 2rem;
+  border: 3px solid lightgray;
+  
+}
+
+#list {
+  width: 50%;
+}
+
+.result {
+  margin: 10px 0;
+  padding: 5%;
+  background-color: white;
+ 
+}
+
+.highlight {
+  background-color: goldenrod;
+ 
+}
