@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Just+Another+Hand');
+
+body {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: teal;
+  color: white;
+  font-family: 'Just Another Hand', sans-serif;
+  letter-spacing:0.5px;
+}
+
+.inbox {
+  
+}
+
+input, p {
+  display: inline;
+  margin: 10px;
+  font-size: 30px;
+}
+
+.line {
+  text-decoration: line-through;
+}
