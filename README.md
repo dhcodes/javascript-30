@@ -12,3 +12,4 @@ This repo will store my projects that are part of [Wes Bos' Javascript 30 series
 7. [Array Cardio, Day 2](http://codepen.io/dhcodes/pen/vgBOgy) | [Notes](https://github.com/dhcodes/javascript-30/blob/master/7_arraycardio2/comments.md)
 8. Coming Soon
 9. [Dev Tool Tricks](http://codepen.io/dhcodes/pen/ggaYaJ?editors=0010) | [Notes](https://github.com/dhcodes/javascript-30/blob/master/9_devtooltricks/comments.md)
+10. [Hold Shift to Select](http://codepen.io/dhcodes/pen/KazPRd) | [Notes](https://github.com/dhcodes/javascript-30/blob/master/10_holdshift/comments.md)
