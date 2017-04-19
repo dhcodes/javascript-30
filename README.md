@@ -14,3 +14,4 @@ This repo will store my projects that are part of [Wes Bos' Javascript 30 series
 9. [Dev Tool Tricks](http://codepen.io/dhcodes/pen/ggaYaJ?editors=0010) | [Notes](https://github.com/dhcodes/javascript-30/blob/master/9_devtooltricks/comments.md)
 10. [Hold Shift to Select](http://codepen.io/dhcodes/pen/KazPRd) | [Notes](https://github.com/dhcodes/javascript-30/blob/master/10_holdshift/comments.md)
 11. [Custom HTML5 Video Player](http://codepen.io/dhcodes/pen/OWWVMW) | [Notes](11_html5videoplayer/comment.md)
+12. [Key Sequence Detection - Konami Code](http://codepen.io/dhcodes/pen/bWVxJK) | [Notes](12_keysequence/comments.md)

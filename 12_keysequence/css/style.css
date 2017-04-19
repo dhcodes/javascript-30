@@ -1,0 +1,13 @@
+body {
+  text-align: center;
+}
+
+#log {
+  margin-bottom: 5%;
+  font-size: 20px;
+}
+
+#keybox {
+  font-size: 200px;
+  border-radius: 15px;
+}
